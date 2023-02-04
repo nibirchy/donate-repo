@@ -1,0 +1,83 @@
+body{
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+section{
+    width: 85%;
+    height: 500px;
+    padding: 150px;
+}
+.banner1{
+    background: rgb(0,0,0,0.5)url("images/donation03.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    
+}
+.h1decoration{
+    margin-top: 150px;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(250, 248, 248);
+}
+.p1decoration{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(50deg, rgb(243, 131, 103), tomato);
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-left: 45%;
+    color: rgb(246, 247, 248);
+    font-weight: 900px;
+}
+
+.text{
+    padding: 50px;
+
+}
+.h2decoration{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+.p2decoration{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    padding: 30px;
+    opacity: 0.5;
+}
+.box{
+    display: inline-block;
+    box-shadow: 5px 7px 40px rgb(223, 219, 219);
+    border-radius: 2px;
+    padding: 20px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    background-color: rgb(253, 249, 249);
+    opacity: 0.5;
+}
+.box-1 h2{
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.p3decoration{
+    text-align: center;
+    text-decoration: 20px dashed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    opacity: 0.5;
+    border-bottom: 1px solid silver;
+
+
+}
