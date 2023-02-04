@@ -1,6 +1,8 @@
 body{
     margin-left: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+        
 }
 section{
     width: 85%;
@@ -41,7 +43,6 @@ section{
 
 }
 .h2decoration{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     margin-top: 20px;
     font-size: 50px;
     text-align: center;
@@ -49,7 +50,6 @@ section{
 }
 .p2decoration{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 20px;
     color: rgb(10, 10, 10);
     padding: 30px;
@@ -71,13 +71,25 @@ section{
 }
 .p3decoration{
     text-align: center;
-    text-decoration: 20px dashed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     padding: 20px;
     margin-left: 30px;
     opacity: 0.5;
     border-bottom: 1px solid silver;
-
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: tomato;
+    font-size: 20px;
+    height: 150px;
+    padding: 150px;
+}
+.p4decoration{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 0.5;
 
 }
