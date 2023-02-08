@@ -1,14 +1,17 @@
+/* Style For Body Tag*/
 body{
     margin-left: 0%;
     font-family: 'Lobster', cursive;
     font-family: 'Righteous', cursive;
         
 }
+/*Style For Section Tag*/
 section{
     width: 85%;
     height: 500px;
     padding: 150px;
 }
+/*Style For Section 1 --Start From Here */
 .banner1{
     background: rgb(0,0,0,0.5)url("images/donation03.jpg");
     background-size: cover;
@@ -16,13 +19,13 @@ section{
     background-repeat: no-repeat;
     
 }
-.h1decoration{
+.h1-decoration{
     margin-top: 70px;
     font-size: 80px;
     text-align: center;
     color: rgb(250, 248, 248);
 }
-.p1decoration{
+.p1-decoration{
     font-size: 30px;
     color: whitesmoke;
     padding-bottom: 10px;
@@ -38,23 +41,25 @@ section{
     color: rgb(246, 247, 248);
     font-weight: 900px;
 }
+/*Style for Section 2--Start From Here */
 
-.text{
+.text{ /*Style for Section 2 and 3*/
     padding: 50px;
 
 }
-.h2decoration{
+.h2-decoration{/*Style for Section 2 and 3 header(h2) tag*/
     margin-top: 20px;
     font-size: 50px;
     text-align: center;
     color: rgb(7, 7, 7);
 }
-.p2decoration{
+.p2-decoration{/*Style for section 2 and 3 paragrapgh(p) tag */
     text-align: center;
     font-size: 20px;
     color: rgb(10, 10, 10);
     padding: 30px;
     opacity: 0.5;
+    margin-bottom: 50px;
 }
 .box{
     display: inline-block;
@@ -70,13 +75,62 @@ section{
     align-items: center;
     color: rgb(0, 0, 0);
 }
-.p3decoration{
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    margin-left: 30px;
-    opacity: 0.5;
-    border-bottom: 1px solid silver;
+.p3-decoration{ /*Style for Section 2 button*/
+     text-align: center;
+     font-size: 30px;
+     padding: 20px;
+     margin-left: 30px;
+     opacity: 0.5;
+     border-bottom: 1px solid silver;
+}/*Section 2 Style --End*/
+
+/*Style For Section 3, class banner3 tag--Start Here*/
+.box-2
+{ 
+    display: inline-block;
+    margin-left: 25px;
+    width: 20%;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-position: 20px 50px, 20px 20px;
+    opacity: 1;
+    border-radius: 10px;
+}
+#box1-decoration
+{
+    background-color: bisque;
+    background-image: url(icons/food.png);
+}
+#box2-decoration
+{
+    background-color: rgb(135, 222, 142);
+    background-image: url(icons/shelter.png);
+}
+#box3-decoration
+{
+    background-color: aquamarine;
+    background-image: url(icons/Frame-1.png);
+}
+.text1{
+    margin-left: 200px;
+}/*Style for Section 3-- End*/
+
+/*Style For Section 4 and 5--Stat Here*/
+
+.banner4-decoration{
+    display: inline-block;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.p4-decoration{
+    padding-bottom: 50px;
+}
+#banner4-button{
+    margin-left: 0px;
 }
 footer{
     text-align: center;
@@ -93,4 +147,33 @@ footer{
     padding: 20px;
     opacity: 0.5;
 
+}
+.update-decoration{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50PX;
+}
+#banner6-button{
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 0%;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 5px 0px 0px 5px;
+    background: linear-gradient(90deg, rgba(247, 235, 235, 0.74), rgb(243, 230, 228));
+    padding: 20px 250px 20px 20px;
+    
+}
+#banner7-button{
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 0%;
+    
+}
+span{
+    text-align: left;
+    color: rgb(3, 3, 3);
+    opacity: 0.5;
 }
